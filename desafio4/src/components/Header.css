@@ -1,0 +1,29 @@
+header#main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 20px 0 20px;
+  background-color: #fff;
+}
+
+header#main-header #profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #000;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+header#main-header #profile:hover {
+  transform: scale(1.1);
+}
+
+header#main-header #profile .icon {
+  height: 20px;
+  margin-left: 5px;
+  color: white;
+}

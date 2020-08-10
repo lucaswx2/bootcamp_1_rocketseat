@@ -1,0 +1,12 @@
+{
+  "extends": ["standard"],
+  "globals": {
+    "use": true
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "semi": 0
+  }
+}
